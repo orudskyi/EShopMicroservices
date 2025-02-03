@@ -1,10 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C65559CF-7D49-4F32-8D2A-C3CB46F25902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{7728B897-01D9-4403-8145-F79126256FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{75260488-D152-4F2E-B7F1-A1333A1C2748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{DD9C4194-02BD-4226-85AA-F695855064EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{DD7A42E5-363D-4C08-B57D-A5B4EC34C2C9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75260488-D152-4F2E-B7F1-A1333A1C2748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75260488-D152-4F2E-B7F1-A1333A1C2748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75260488-D152-4F2E-B7F1-A1333A1C2748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75260488-D152-4F2E-B7F1-A1333A1C2748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7A42E5-363D-4C08-B57D-A5B4EC34C2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7A42E5-363D-4C08-B57D-A5B4EC34C2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7A42E5-363D-4C08-B57D-A5B4EC34C2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7A42E5-363D-4C08-B57D-A5B4EC34C2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7728B897-01D9-4403-8145-F79126256FA3} = {C65559CF-7D49-4F32-8D2A-C3CB46F25902}
+		{75260488-D152-4F2E-B7F1-A1333A1C2748} = {7728B897-01D9-4403-8145-F79126256FA3}
+		{DD7A42E5-363D-4C08-B57D-A5B4EC34C2C9} = {DD9C4194-02BD-4226-85AA-F695855064EF}
 	EndGlobalSection
 EndGlobal
