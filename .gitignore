@@ -399,3 +399,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 src/launchSettings.json
+/src/ApiGateways/YarpGateway/appsettings.Development.json
+/src/ApiGateways/YarpGateway/appsettings.json
+/src/ApiGateways/YarpGateway/appsettings.Local.json
